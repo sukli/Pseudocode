@@ -21,3 +21,11 @@ def function 'biggest residual difference':
 			else if datapoint > currMax
 				currMax = datapoint
 	return currMax - currMin
+
+#data from year
+def function 'data from year' (year y):
+	create a file
+	number = year number - 1850
+	loop through each year until number
+		loop through each month
+			insert into file (month, data point)
