@@ -1,0 +1,11 @@
+#project idea  changed from phylogenetic trees to temperature anomalies
+
+#http://cdiac.ornl.gov/ftp/trends/temp/jonescru/global.txt
+
+#extracts data from a certain month
+def function 'data from certain month' (month m):
+	create a file
+	number = integer of month m
+	loop through each year
+		loop until number
+			insert into file (year, data point)
