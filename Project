@@ -47,3 +47,25 @@ def function 'lowest anomaly':
 			if datapoint < min
 				min = datapoint
 	return min
+
+#minimum anomaly for each year
+def function 'min anomaly for each year':
+	create a file
+	minNum = big number
+	loop through each year
+		loop through each month
+			if datapoint < minNum
+				minNum = datapoint
+		insert into file (year, minNum)
+		minNum = big number
+
+#maximum anomaly for each year
+def function 'max anomaly for each year':
+	create a file
+	maxNum = small number
+	loop through each year
+		loop through each month
+			if datapoint > maxNum
+				maxNum = datapoint
+		insert into file (year, maxNum)
+		maxNum = small number
