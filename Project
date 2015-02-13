@@ -91,3 +91,23 @@ def function 'max anomaly for each month':
 				maxMonth = datapoint
 		insert into file (month, maxMonth)
 		maxMonth = small number
+
+#minimum annual anomaly
+def function 'min annual anomaly':
+	create a file 
+	minAnn = big number
+	loop through each year
+		loop until annual
+			if datapoint < minAnn
+				minAnn = datapoint
+	return minAnn
+
+#maximum annual anomaly
+def function 'max annual anomaly':
+	create a file
+	maxAnn = small number
+	loop through each year
+		loop until annual
+			if datapoint > maxAnn
+				maxAnn = datapoint
+	return maxAnn
