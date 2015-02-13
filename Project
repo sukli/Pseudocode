@@ -29,3 +29,21 @@ def function 'data from year' (year y):
 	loop through each year until number
 		loop through each month
 			insert into file (month, data point)
+
+#highest anomaly
+def function 'highest anomaly':
+	max = small number
+	loop through each year
+		loop through each month
+			if datapoint > max
+				max = datapoint
+	return max
+
+#lowest anomaly
+def function 'lowest anomaly':
+	min = big number
+	loop through each year
+		loop through each month
+			if datapoint < min
+				min = datapoint
+	return min
